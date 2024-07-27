@@ -20,10 +20,10 @@ function verificarIntento(){
         document.getElementById("reiniciar").removeAttribute("disabled");
     }else{
         if(numeroDeUsuario > numeroSecreto){
-            asignarTextoElemento("p","el numero secreto es menor");
+            asignarTextoElemento("p","el numero secreto es menor....Intenta de nuevo");
 
         }else{
-            asignarTextoElemento("p","el numero secreto es mayor")
+            asignarTextoElemento("p","el numero secreto es mayor.....Intenta de nuevo")
         }
         intentos++;
         limpiarCaja();
